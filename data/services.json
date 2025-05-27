@@ -1,16 +1,28 @@
 {
-    "data":[
+    "data": [
         {
-            "title":"UI/UX Design",
-            "description":"I create visually stunning and user-friendly designs that enhance user experience. Our approach focuses on intuitive navigation, responsive layouts, and modern aesthetics to ensure your product not only looks great but also provides seamless interaction."
+            "title": "UI/UX Design",
+            "description": "I create visually stunning and user-friendly designs that enhance user experience. Our approach focuses on intuitive navigation, responsive layouts, and modern aesthetics to ensure your product not only looks great but also provides seamless interaction."
         },
         {
-            "title":"UI/UX Design",
-            "description":"I create visually stunning and user-friendly designs that enhance user experience. Our approach focuses on intuitive navigation, responsive layouts, and modern aesthetics to ensure your product not only looks great but also provides seamless interaction."
+            "title": "Frontend Development",
+            "description": "Bringing designs to life with clean, efficient, and responsive code. We specialize in crafting interactive, high-performance web interfaces using modern technologies like React, Vue, and Tailwind CSS to ensure a smooth and engaging user experience."
         },
         {
-            "title":"UI/UX Design",
-            "description":"I create visually stunning and user-friendly designs that enhance user experience. Our approach focuses on intuitive navigation, responsive layouts, and modern aesthetics to ensure your product not only looks great but also provides seamless interaction."
+            "title": "Valorant Rank Boosting",
+            "description": "G-GENK Boosting Service is the ultimate solution for players tired of being stuck in the same rank. Let us help you climb the ranks in Valorant effortlessly—no stress, no losing streaks. With G GENK, you get a fast, affordable, and 100% safe boosting service you can trust. Elevate your game today!"
+        },
+        {
+            "title": "Discord Server Development",
+            "description": "Build the ultimate Discord community with a professionally designed server. We create structured, engaging, and well-organized Discord servers tailored to your needs—whether for gaming, business, or social communities. From custom roles and permissions to automated bots and unique channel setups, we ensure a seamless and enjoyable experience for your members."
+        },
+        {
+            "title": "Video Editing",
+            "description": "Transform your raw footage into captivating content. We specialize in professional videoediting, color grading, motion graphics, and seamless transitions to make your videos stand out. Whether for social media, marketing, or personal projects, we bring your vision to life with high-quality production."
+        },
+        {
+            "title": "Community Admin / Moderator",
+            "description": "help maintain a safe, engaging, and welcoming environment for your online community. From enforcing rules and resolving conflicts to encouraging positive interactions and organizing events, I ensure that every member feels heard and respected. With experience managing diverse communities—whether for gaming, education, or social groups—I’m committed to fostering a space where people can connect, grow, and thrive together."
         }
     ]
 }

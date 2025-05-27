@@ -1,99 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <link rel="stylesheet" href="style-detailporto.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="style-detailporto.css">
-</head>
+    <body>
+        <!-- SECTION HEADER START -->
+        <header class="header">
+            <a href="index.html#home" class="logo"
+                >Gibran
+                <span>Mikail</span>
+            </a>
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="index.html#home" class="active">Home</a>
+                <a href="index.html#education">Education</a>
+                <a href="index.html#services">Services</a>
+                <a href="index.html#Portofolio">Portofolio</a>
+                <a href="index.html#testimonials">Testimonials</a>
+                <a href="index.html#contactForm">Contact</a>
+            </nav>
+        </header>
+        <!-- SECTION HEADER END -->
+        <div style="margin: 70px">
+            <section
+                style="margin-top: 150px; margin-left: 20px; display: flex; justify-content: space-between"
+            >
+                <h1 style="font-size: 35px">Detail Portfolio</h1>
+                <button class="see-detail" onclick="window.location.href='index.html#Portofolio '">
+                    Back
+                </button>
+            </section>
 
-<body>
-    <!-- SECTION HEADER START -->
-    <header class="header">
-        <a href="#home" class="logo">Gibran
-            <span>Mikail</span>
-        </a>
-        <i class="bx bx-menu" id="menu-icon"></i>
-        <nav class="navbar">
-            <a href="index.html#home" class="active">Home</a>
-            <a href="index.html#education">Education</a>
-            <a href="index.html#services">Services</a>
-            <a href="index.html#Portofolio">Portofolio</a>
-            <a href="index.html#testimonials">Testimonials</a>
-            <a href="index.html#contact">Contact</a>
-        </nav>
-    </header>
-    <!-- SECTION HEADER END -->
-    <div style="margin: 70px;">
-        <section style="margin-top: 150px; margin-left: 20px; display: flex; justify-content: space-between;">
-            <h1 style="font-size: 35px;">Detail Portfolio</h1>
-            <button class="see-detail" onclick="window.location.href='index.html#Portofolio '">Back</button>
-        </section>
+            <!-- <section> -->
 
-        <!-- <section> -->
-
-        <div class="container-prewiew-image">
-            <div class="container-left">
-                <div class="img-preview-sec">
-
-
-                    <div style="padding: 20px;" id="primaryImg">
-                        <!-- <img src="/assets/porto-img/porto-9-websiteportofolio/1.jpg" alt="" class="img-preview-real"
+            <div class="container-prewiew-image">
+                <div class="container-left">
+                    <div class="img-preview-sec">
+                        <div style="padding: 20px" id="primaryImg">
+                            <!-- <img src="/assets/porto-img/porto-9-websiteportofolio/1.jpg" alt="" class="img-preview-real"
                             id="img-preview-real"> -->
+                        </div>
                     </div>
-
-
-
-
                 </div>
-            </div>
 
-            <div class="container-right">
-                <div class="list-scroll" id="list-scroll">
-                    <!-- <div class="list-card-slider">
+                <div class="container-right">
+                    <div class="list-scroll" id="list-scroll">
+                        <!-- <div class="list-card-slider">
                         <img src="/assets/porto-img/porto-9-websiteportofolio/2.jpg" alt="" width="300">
                     </div> -->
+                    </div>
                 </div>
             </div>
 
+            <!-- </section> -->
 
-        </div>
-
-        <!-- </section> -->
-
-        <!-- <section > -->
-        <div class="description-container">
-            <div class="description-container-sec">
-                <div style="width: 100%; ">
-                    <h1 style=" font-size: 20px;" id="title-category"> </h1>
-                </div>
-                <div class="description-body">
-                    <div style="width: 80%;">
-
-                        <div style="margin-bottom: 30px;">
-                            <h1 style="margin-bottom: 10px; font-size: 16px;">Description</h1>
-                            <p style="font-size: 12px;" id="description"></p>
-                        </div>
-                        <div style="margin-bottom: 20px;">
-                            <h1 style="margin-bottom: 10px; font-size: 16px;">Features</h1>
-                            <ul style="font-size: 12px;" id="features">
-                                <!-- <li>Lorem ipsum</li>
+            <!-- <section > -->
+            <div class="description-container">
+                <div class="description-container-sec">
+                    <div style="width: 100%">
+                        <h1 style="font-size: 20px" id="title-category"></h1>
+                    </div>
+                    <div class="description-body">
+                        <div style="width: 80%">
+                            <div style="margin-bottom: 30px">
+                                <h1 style="margin-bottom: 10px; font-size: 16px">Description</h1>
+                                <p style="font-size: 12px" id="description"></p>
+                            </div>
+                            <div style="margin-bottom: 20px">
+                                <h1 style="margin-bottom: 10px; font-size: 16px">Features</h1>
+                                <ul style="font-size: 12px" id="features">
+                                    <!-- <li>Lorem ipsum</li>
                                 <li>Lorem ipsum</li>
                                 <li>Lorem ipsum</li>
                                 <li>Lorem ipsum</li>
                                 <li>Lorem ipsum</li> -->
-                            </ul>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div style="width: 20%;">
-                        <div class="card-description">
-                            <h1 style="margin-bottom: 10px; font-size: 16px;">Technology</h1>
-                            <div style="display: flex;" id="technology">
-                                <!-- <div class="badge">
+                        <div style="width: 20%">
+                            <div class="card-description">
+                                <h1 style="margin-bottom: 10px; font-size: 16px">Technology</h1>
+                                <div style="display: flex" id="technology">
+                                    <!-- <div class="badge">
                                     Figma
                                 </div>
 
@@ -108,13 +103,12 @@
                                 <div class="badge">
                                     Figma
                                 </div> -->
-
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-description">
-                            <h1 style="margin-bottom: 10px; font-size: 16px;">Integration</h1>
-                            <div style="display: flex;" id="integration">
-                                <!-- <div class="badge">
+                            <div class="card-description">
+                                <h1 style="margin-bottom: 10px; font-size: 16px">Integration</h1>
+                                <div style="display: flex" id="integration">
+                                    <!-- <div class="badge">
                                     Figma
                                 </div>
 
@@ -129,133 +123,107 @@
                                 <div class="badge">
                                     Figma
                                 </div> -->
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="card-description">
-                            <h1 style="margin-bottom: 10px; font-size: 16px;">Link</h1>
-                            <div id="link">
-                                <!-- <a href="https://fahmihwan.netlify.app/" style="font-size: 16px; color: white;"
+                            <div class="card-description">
+                                <h1 style="margin-bottom: 10px; font-size: 16px">Link</h1>
+                                <div id="link">
+                                    <!-- <a href="https://fahmihwan.netlify.app/" style="font-size: 16px; color: white;"
                                     target="_blank">https://fahmihwan.netlify.app/</a> -->
+                                </div>
                             </div>
                         </div>
-
-
-
-
                     </div>
-
-
                 </div>
-
             </div>
+
+            <!-- </section> -->
         </div>
 
-        <!-- </section> -->
-    </div>
+        <script
+            src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            $(document).ready(function () {
+                // Your code here
+                // alert('d')
+                const queryString = window.location.search;
 
-    <script src="https://code.jquery.com/jquery-3.7.1.js"
-        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <script>
+                // Buat objek dari query string
+                const urlParams = new URLSearchParams(queryString);
 
-        $(document).ready(function () {
-            // Your code here
-            // alert('d')
-            const queryString = window.location.search;
+                // Ambil nilai dari parameter "slug"
+                const slug = urlParams.get("slug");
 
-            // Buat objek dari query string
-            const urlParams = new URLSearchParams(queryString);
+                let isChangeImage = 0;
 
-            // Ambil nilai dari parameter "slug"
-            const slug = urlParams.get('slug');
+                fetch("data/porto.json")
+                    .then((res) => res.json())
+                    .then((res) => {
+                        let primaryImg = "";
+                        let description = "";
+                        let link = "";
 
-            let isChangeImage = 0;
-
-            fetch('data/porto.json')
-                .then((res) => res.json())
-                .then((res) => {
-
-
-
-                    let primaryImg = ""
-                    let description = ""
-                    let link = ""
-
-                    let listScrollHTML = ""
-                    let technologyHTML = ""
-                    let featuresHTML = ""
-                    let integrationHTML = ""
-                    res.data.forEach(e => {
-                        if (e.slug == slug) {
-                            e.detail.listImage.forEach((d) => {
-                                listScrollHTML += `<div data-obj="${d}" class="list-card-slider">
+                        let listScrollHTML = "";
+                        let technologyHTML = "";
+                        let featuresHTML = "";
+                        let integrationHTML = "";
+                        res.data.forEach((e) => {
+                            if (e.slug == slug) {
+                                e.detail.listImage.forEach((d) => {
+                                    listScrollHTML += `<div data-obj="${d}" class="list-card-slider">
                                 <img src="${d}" alt="" width="300">
-                            </div>`
-                            })
+                            </div>`;
+                                });
 
-
-                            e.detail.technology.forEach((d) => {
-                                technologyHTML += `<div class="badge">
+                                e.detail.technology.forEach((d) => {
+                                    technologyHTML += `<div class="badge">
                                 ${d}
-                                </div>`
-                            })
+                                </div>`;
+                                });
 
+                                e.detail.features.forEach((d) => {
+                                    featuresHTML += `<li>${d}</li>
+                            </div>`;
+                                });
 
-                            e.detail.features.forEach((d) => {
-                                featuresHTML += `<li>${d}</li>
-                            </div>`
-                            })
-
-
-                            e.detail.integration.forEach((d) => {
-                                integrationHTML += `<div class="badge">
+                                e.detail.integration.forEach((d) => {
+                                    integrationHTML += `<div class="badge">
                                 ${d}
-                                </div>`
-                            })
+                                </div>`;
+                                });
 
+                                $("#primaryImg")
+                                    .html(`<img src="/assets/porto-img/porto-9-websiteportofolio/1.jpg" alt="" class="img-preview-real"
+                            id="img-preview-real">`);
+                                $("#description").text(e?.detail.description);
+                                $("#link")
+                                    .html(`<a href="${e.detail.link}" style="font-size: 16px; color: white;"
+                            target="_blank">${e.detail.link}</a>`);
+                            }
+                        });
 
+                        $("#list-scroll").html(listScrollHTML);
+                        $("#technology").html(technologyHTML);
+                        $("#integration").html(integrationHTML);
+                        $("#features").html(featuresHTML);
 
-                            $("#primaryImg").html(`<img src="/assets/porto-img/porto-9-websiteportofolio/1.jpg" alt="" class="img-preview-real"
-                            id="img-preview-real">`)
-                            $("#description").text(e?.description)
-                            $("#link").html(`<a href="${e.detail.link}" style="font-size: 16px; color: white;"
-                            target="_blank">${e.detail.link}</a>`)
-
-                        }
+                        $(".list-card-slider").on("click", function () {
+                            const obj = $(this).data("obj");
+                            $("#img-preview-real").attr("src", obj);
+                        });
                     });
 
-
-                    $("#list-scroll").html(listScrollHTML)
-                    $("#technology").html(technologyHTML)
-                    $("#integration").html(integrationHTML)
-                    $("#features").html(featuresHTML)
-
-                    $('.list-card-slider').on('click', function () {
-                        const obj = $(this).data('obj');
-                        $('#img-preview-real').attr('src', obj);
-
-                    });
-
-
-
-
-                })
-
-
-
-
-            // $('.list-card-slider').forEach(e => {
-            //     console.log(e);
-            // });
-            // $('.list-card-slider').each(function () {
-            //     $(this).trigger('click'); // atau $(this).click();
-            // });
-
-
-
-        });
-    </script>
-
-</body>
-
+                // $('.list-card-slider').forEach(e => {
+                //     console.log(e);
+                // });
+                // $('.list-card-slider').each(function () {
+                //     $(this).trigger('click'); // atau $(this).click();
+                // });
+            });
+        </script>
+    </body>
 </html>
