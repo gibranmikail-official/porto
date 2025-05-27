@@ -80,6 +80,33 @@
                 "integration": ["HIHI   ", "HUHU", "HAHA"],
                 "link": "https://github.com/fahmihwan/outlaws-studio-online-store.git"
             }
+        },
+         {
+            "title": "Gibrawkwkwk",
+            "slug": "gibran-mikail-wwdwd-portofolioss",
+            "category":"Landing Page Design",
+            "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia eligendi cupiditate asperiores nam, beatae repudiandae expedita fugit, quos dicta ut unde rerum vitae.",
+            "primaryImg":"/assets/porto-img/porto-9-websiteportofolio/1.jpg",
+            "detail": {
+                "listImage":[
+                    "/assets/porto-img/porto-9-websiteportofolio/1.jpg",
+                    "/assets/porto-img/porto-9-websiteportofolio/2.jpg",
+                    "/assets/porto-img/porto-9-websiteportofolio/3.jpg",
+                    "/assets/porto-img/porto-9-websiteportofolio/4.jpg",
+                    "/assets/porto-img/porto-9-websiteportofolio/5.jpg",
+                    "/assets/porto-img/porto-9-websiteportofolio/6.jpg",
+                    "/assets/porto-img/porto-9-websiteportofolio/7.png"
+                ],
+                "description": "Outlaws Studo Store is an online shop apps to handle  ordering customer in the whole of country and. This web build Dashboard admin from scratch and This UI/UX is inspired by Converse. ",
+                "features": [
+                    "lorem",
+                    "lorem",
+                    "lorem"
+                ],
+                "technology": ["FIGMA", "HTML", "CSS"],
+                "integration": ["HIHI   ", "HUHU", "HAHA"],
+                "link": "https://github.com/fahmihwan/outlaws-studio-online-store.git"
+            }
         }
     ]
 }
